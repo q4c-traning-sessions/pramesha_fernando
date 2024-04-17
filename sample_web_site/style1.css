@@ -727,22 +727,24 @@ text-align: center;
 
 .rectangleh {
  
- width: auto;
- height: 100px;
+ width: 400px;
+ height: 130px;
  border: 1px solid #ccc;
-  
+ border-radius: 10px;
 }
 
 .square3{
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
     background-color:white; 
-    
+    border-radius: 30px;
     border-radius: 5px; 
     cursor: pointer; 
     margin-top: 10px;
     padding: 10px;
     border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
 }
 
 
